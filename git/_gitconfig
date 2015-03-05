@@ -1,3 +1,5 @@
 [user]
 	name = Chris Shiplet
 	email = chris@nearengine.com
+[push]
+	default = simple
