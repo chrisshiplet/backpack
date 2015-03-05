@@ -20,4 +20,7 @@ My stuff
   * `chsh -s /usr/local/bin/fish`
   * `cp dotfiles/fish/config.fish ~/.config/fish/config.fish`
   * `cp dotfiles/fish/base16-shell/base16-ocean.dark.sh ~/.config/base16-ocean.dark.sh`
-1. Install Sublime Text 3 and then `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`
+1. Install Sublime Text 3
+  * Then `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`
+  * https://packagecontrol.io/installation
+  * `cmd+shift+p` then install `base16 color schemes`
