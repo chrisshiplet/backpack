@@ -14,4 +14,4 @@ My stuff
 1. Install fish with `brew install fish`
 1. Run `fish_config` and set `Classic + Git` prompt
 1. Set fish as default shell with `echo "/usr/local/bin/fish" | sudo tee -a /etc/shells` and `chsh -s /usr/local/bin/fish`
-1. Install Sublime Text 3 and then `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl`
+1. Install Sublime Text 3 and then `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`
