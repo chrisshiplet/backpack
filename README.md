@@ -6,6 +6,9 @@ My stuff
 
 1. Install Dropbox, 1Password, iTerm2, Chrome, Transmit, Clear, Alfred2, Fantastical, nvAlt, Omnifocus, and xCode
 1. Generate an RSA key and push it to GitHub, GitLab, and server
+  * `ssh-keygen -t rsa -C "chris@nearengine.com"`
+  * `ssh-add ~/.ssh/id_rsa`
+  * `pbcopy < ~/.ssh/id_rsa.pub`
 1. Copy git config `cp git/_gitconfig ~/.gitconfig`
 1. Install Homebrew with `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 1. Install fish with `brew install fish`
