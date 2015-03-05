@@ -19,5 +19,5 @@ My stuff
   * `echo "/usr/local/bin/fish" | sudo tee -a /etc/shells`
   * `chsh -s /usr/local/bin/fish`
   * `cp dotfiles/fish/config.fish ~/.config/fish/config.fish`
-  * `cp -r dotfiles/fish/base16-shell/ ~/.config/base16-shell`
+  * `cp dotfiles/fish/base16-shell/base16-ocean.dark.sh ~/.config/base16-ocean.dark.sh`
 1. Install Sublime Text 3 and then `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`
