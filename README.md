@@ -9,11 +9,15 @@ My stuff
   * `ssh-keygen -t rsa -C "chris@nearengine.com"`
   * `ssh-add ~/.ssh/id_rsa`
   * `pbcopy < ~/.ssh/id_rsa.pub`
+1. Download submodules `git submodule update --init --recursive`
 1. Copy git config
   * `cp dotfiles/gitconfig ~/.gitconfig`
   * `cp dotfiles/gitignore_global ~/.gitignore_global`
 1. Install Homebrew with `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 1. Install fish with `brew install fish`
-1. Run `fish_config` and set `Classic + Git` prompt
-1. Set fish as default shell with `echo "/usr/local/bin/fish" | sudo tee -a /etc/shells` and `chsh -s /usr/local/bin/fish`
+  * Run `fish_config` and set `Classic + Git` prompt
+  * `echo "/usr/local/bin/fish" | sudo tee -a /etc/shells`
+  * `chsh -s /usr/local/bin/fish`
+  * `cp dotfiles/fish/config.fish ~/.config/fish/config.fish`
+  * `cp -r dotfiles/fish/base16-shell/ ~/.config/base16-shell`
 1. Install Sublime Text 3 and then `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`
