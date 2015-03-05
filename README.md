@@ -9,7 +9,9 @@ My stuff
   * `ssh-keygen -t rsa -C "chris@nearengine.com"`
   * `ssh-add ~/.ssh/id_rsa`
   * `pbcopy < ~/.ssh/id_rsa.pub`
-1. Copy git config `cp dotfiles/gitconfig ~/.gitconfig`
+1. Copy git config
+  * `cp dotfiles/gitconfig ~/.gitconfig`
+  * `cp dotfiles/gitignore_global ~/.gitignore_global`
 1. Install Homebrew with `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 1. Install fish with `brew install fish`
 1. Run `fish_config` and set `Classic + Git` prompt
