@@ -10,7 +10,8 @@ My stuff
   * `ssh-add ~/.ssh/id_rsa`
   * `pbcopy < ~/.ssh/id_rsa.pub`
 1. Download submodules `git submodule update --init --recursive`
-1. Copy git config
+1. Link git config
+  * `rm -f ~/.gitconfig ~/.gitignore_global`
   * `ln -s ~/backpack/dotfiles/gitconfig ~/.gitconfig`
   * `ln -s ~/backpack/dotfiles/gitignore_global ~/.gitignore_global`
 1. Install Homebrew with `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
