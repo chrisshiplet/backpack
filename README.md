@@ -5,6 +5,8 @@ My stuff
 ## Installation
 
 1. Install Dropbox, 1Password, iTerm2, Chrome, Transmit, Clear, Alfred2, Fantastical, nvAlt, Omnifocus, and xCode
+1. Install InputMono
+  * http://input.fontbureau.com/
 1. Generate an RSA key and push it to GitHub, GitLab, and server
   * `ssh-keygen -t rsa -C "chris@nearengine.com"`
   * `ssh-add ~/.ssh/id_rsa`
