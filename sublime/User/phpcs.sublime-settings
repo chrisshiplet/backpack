@@ -1,0 +1,9 @@
+{
+    "phpcs_additional_args": {
+        "--standard": "PSR2",
+        "-n": ""
+    },
+    "phpcs_executable_path": "/Users/synapse/phpcs_dependencies/vendor/bin/phpcs",
+    "phpmd_executable_path": "/Users/synapse/phpcs_dependencies/vendor/bin/phpmd",
+    "php_cs_fixer_executable_path": "/Users/synapse/phpcs_dependencies/vendor/bin/php-cs-fixer"
+}

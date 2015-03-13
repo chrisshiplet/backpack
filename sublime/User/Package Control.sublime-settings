@@ -1,0 +1,40 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"AutoFileName",
+		"Babel",
+		"Base16 Color Schemes",
+		"ColorPicker",
+		"DocBlockr",
+		"FindKeyConflicts",
+		"Git",
+		"GitGutter",
+		"Handlebars",
+		"JSLint",
+		"JSX",
+		"LineEndings",
+		"Markdown Preview",
+		"Package Control",
+		"Phpcs",
+		"Puppet",
+		"SCSS",
+		"Select Quoted",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"SublimeLinter-jshint",
+		"SublimeLinter-json",
+		"SublimeLinter-jsxhint",
+		"SublimeLinter-php",
+		"SublimeLinter-phpcs",
+		"SublimeLinter-phpmd",
+		"SyncedSideBar",
+		"Terminal",
+		"Theme - Soda"
+	]
+}
