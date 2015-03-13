@@ -9,14 +9,17 @@ My stuff
   * `ssh-keygen -t rsa -C "chris@nearengine.com"`
   * `ssh-add ~/.ssh/id_rsa`
   * `pbcopy < ~/.ssh/id_rsa.pub`
-1. Download submodules `git submodule update --init --recursive`
+1. Download submodules
+  * `git submodule update --init --recursive`
 1. Link git config
   * `rm -f ~/.gitconfig ~/.gitignore_global`
   * `ln -s ~/backpack/dotfiles/gitconfig ~/.gitconfig`
   * `ln -s ~/backpack/dotfiles/gitignore_global ~/.gitignore_global`
-1. Install Homebrew with `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-1. Install fish with `brew install fish`
-  * Run `fish_config` and set `Classic + Git` prompt
+1. Install Homebrew
+  * `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+1. Install fish
+  * `brew install fish`
+  * `fish_config` and set `Classic + Git` prompt
   * `echo "/usr/local/bin/fish" | sudo tee -a /etc/shells`
   * `chsh -s /usr/local/bin/fish`
   * `cp dotfiles/fish/config.fish ~/.config/fish/config.fish`
