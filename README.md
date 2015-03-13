@@ -11,8 +11,8 @@ My stuff
   * `pbcopy < ~/.ssh/id_rsa.pub`
 1. Download submodules `git submodule update --init --recursive`
 1. Copy git config
-  * `cp dotfiles/gitconfig ~/.gitconfig`
-  * `cp dotfiles/gitignore_global ~/.gitignore_global`
+  * `ln -s ~/backpack/dotfiles/gitconfig ~/.gitconfig`
+  * `ln -s ~/backpack/dotfiles/gitignore_global ~/.gitignore_global`
 1. Install Homebrew with `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 1. Install fish with `brew install fish`
   * Run `fish_config` and set `Classic + Git` prompt
