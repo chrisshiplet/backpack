@@ -25,7 +25,7 @@ My stuff
   * `cp dotfiles/fish/config.fish ~/.config/fish/config.fish`
   * `cp dotfiles/fish/base16-shell/base16-ocean.dark.sh ~/.config/base16-ocean.dark.sh`
 1. Install Sublime Text 3
-  * Then `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`
+  * `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`
   * https://packagecontrol.io/installation then restart Sublime and quit
   * `rm -rf ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/`
   * `ln -s ~/backpack/sublime/User/ ~/Library/Application\ Support/Sublime\ Text\ 3/Packages`
