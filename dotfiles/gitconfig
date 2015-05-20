@@ -2,6 +2,6 @@
 	name = Chris Shiplet
 	email = chris@nearengine.com
 [push]
-	default = simple
+	default = current
 [core]
 	excludesfile = ~/.gitignore_global

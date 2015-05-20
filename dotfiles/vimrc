@@ -1,0 +1,144 @@
+"" ----RESOURCES---
+"" http://stevelosh.com/blog/2010/09/coming-home-to-vim/
+
+"" ----PLUGINS----
+
+"" Pathogen (Intializer)
+source ~/.vim/autoload/pathogen.vim
+execute pathogen#infect()
+
+"" Filetype
+filetype on
+filetype plugin on
+
+"" NERDTree
+silent! nmap <F2> :NERDTreeToggle<CR>
+silent! map <F3> :NERDTreeFind<CR>
+
+let g:NERDTreeMapActivateNode="<F3>"
+let g:NERDTreeMapPreview="<F4>"
+let g:NERDTreeWinSize=40
+
+"" ----SETTINGS----
+
+"" Aesthetics
+let base16colorspace=256
+colorscheme base16-ocean
+set background=dark
+set cursorline
+set lbr
+set number
+syntax on
+
+"" Wrapping
+set colorcolumn=120
+set formatoptions=qrn1
+set textwidth=120
+
+"" Tabs and Indents
+set autoindent
+set backspace=indent,eol,start
+set expandtab
+set shiftwidth=4
+set softtabstop=4
+set tabstop=4
+
+"" Search Taming
+nnoremap / /\v
+vnoremap / /\v
+set ignorecase
+set smartcase
+set gdefault
+set incsearch
+set showmatch
+set hlsearch
+nnoremap <leader><space> :noh<cr>
+
+"" General Specialty Stuff
+set encoding=utf-8
+set hidden
+set laststatus=2
+set modelines=0
+set nocompatible
+set ruler
+set scrolloff=3
+set showmode
+set showcmd
+set splitright
+set ttyfast
+set undofile
+set visualbell
+set wildmenu
+set wildmode=list:longest
+
+"" ----MAPPINGS----
+
+"" Insert new lines
+map <Enter> o<ESC>
+map <S-Enter> O<ESC>
+
+"" Jump real lines, not virtual
+nnoremap j gj
+nnoremap k gk
+xnoremap j gj
+xnoremap k gk
+
+"" Fast jumping
+nmap J 5j
+nmap K 5k
+xmap J 5j
+xmap K 5k
+
+"" Bracket jumping
+nnoremap <tab> %
+vnoremap <tab> %
+
+"" Bracket completion and maneuvering
+noremap ( ()<Esc>:call BC_AddChar(")")<CR>i
+inoremap { {<CR>}<Esc>:call BC_AddChar("}")<CR><Esc>kA<CR>
+inoremap [ []<Esc>:call BC_AddChar("]")<CR>i
+inoremap " ""<Esc>:call BC_AddChar("\"")<CR>i
+
+"" Jump out of parenthesis
+inoremap <C-j> <Esc>:call search(BC_GetChar(), "W")<CR>a
+
+function! BC_AddChar(schar)
+    if exists("b:robstack")
+        let b:robstack = b:robstack . a:schar
+    else
+        let b:robstack = a:schar
+    endif
+endfunction
+
+function! BC_GetChar()
+    let l:char = b:robstack[strlen(b:robstack)-1]
+    let b:robstack = strpart(b:robstack, 0, strlen(b:robstack)-1)
+    return l:char
+endfunction
+
+"" Center lines when jumping
+nnoremap gg ggz.
+
+"" Splits, easier
+map <leader>w- <C-W>-
+map <leader>w+ <C-W>+
+map <leader>w[ <C-W>=
+map <leader>w] <C-W>_
+
+"" Move between splits
+nmap gh <C-w>h
+nmap gj <C-w>j
+nmap gk <C-w>k
+nmap gl <C-w>l
+
+"" Force HJKL
+nnoremap <up> <nop>
+nnoremap <down> <nop>
+nnoremap <left> <nop>
+nnoremap <right> <nop>
+inoremap <up> <nop>
+inoremap <down> <nop>
+inoremap <left> <nop>
+inoremap <right> <nop>
+nnoremap j gj
+nnoremap k gk

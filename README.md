@@ -24,8 +24,8 @@ My stuff
   * `fish_config` and set `Classic + Git` prompt
   * `echo "/usr/local/bin/fish" | sudo tee -a /etc/shells`
   * `chsh -s /usr/local/bin/fish`
-  * `cp dotfiles/fish/config.fish ~/.config/fish/config.fish`
-  * `cp dotfiles/fish/base16-shell/base16-ocean.dark.sh ~/.config/base16-ocean.dark.sh`
+  * `ln -s ~/backpack/dotfiles/fish/config.fish ~/.config/fish/`
+  * `ln -s ~/backpack/dotfiles/fish/base16-shell/ ~/.config/`
 1. Install Sublime Text 3
   * `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`
   * https://packagecontrol.io/installation then restart Sublime and quit
