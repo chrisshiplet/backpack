@@ -31,3 +31,17 @@ My stuff
   * https://packagecontrol.io/installation then restart Sublime and quit
   * `rm -rf ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/`
   * `ln -s ~/backpack/sublime/User/ ~/Library/Application\ Support/Sublime\ Text\ 3/Packages`
+1. Install node, npm, gcc
+  * `brew install node`
+  * `brew install gcc`
+1. Install pear
+  * `curl -O http://pear.php.net/go-pear.phar`
+  * `sudo php -d detect_unicode=0 go-pear.phar`
+    * `1. Installation base = /usr/local/pear`
+    * `4. Binaries directory = /usr/local/bin`
+  * `rm -rf go-pear.phar`
+1. Install linters
+  * `npm install -g jsxhint`
+  * `npm install -g jshint`
+  * `pear install PHP_CodeSniffer`
+  * `brew install homebrew/php/phplint`
