@@ -29,6 +29,7 @@ set cursorline
 set lbr
 set number
 syntax on
+let g:airline_powerline_fonts = 1
 
 "" Wrapping
 set colorcolumn=120
@@ -140,5 +141,3 @@ inoremap <up> <nop>
 inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
-nnoremap j gj
-nnoremap k gk
