@@ -1,0 +1,16 @@
+[user]
+	name = Chris Shiplet
+	email = chris@nearengine.com
+[push]
+	default = current
+[core]
+	editor = vim
+	excludesfile = /Users/chris/.gitignore_global
+[alias]
+	co = checkout
+	cob = checkout -b
+	c = commit
+	p = push
+	s = status
+	stash-all = stash save --include-untracked
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
