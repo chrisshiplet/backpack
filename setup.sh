@@ -1,6 +1,6 @@
 #!/bin/bash
 yes '' | /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew install git node zsh zsh-completions vim tmux
+brew install git node zsh zsh-completions vim tmux reattach-to-user-namespace
 brew cask install caskroom/fonts/font-input
 ./atom/setup.sh
 ./zsh/setup.sh
