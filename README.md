@@ -2,29 +2,107 @@
 
 ## System Preferences
 
-### Keyboard & Trackpad
-* Disable natural scrolling
-* Set key repeat rate to fastest
-* Disable Spotlight keyboard shortcuts
-* Enable tab to move between non-button controls
+### General
 
-### Sharing & Security
-* Enable Remote Login for SSH
-* Change hostname
-* Require password immediately upon sleep
+- Dark mode
+- Always show scrollbars
+- Click in the scrollbar to jump to the spot that's clicked
+- Set Chrome as default web browser
+- Set Recent Items to none
 
-### App Store
-* Disable automatic downloads
-* Disable automatic installation
+### Security & Privacy
+
+- Require password immediately upon sleep
+- Turn on FileVault
+
+### Displays
+
+- Enable Night Shift from 9PM to 7AM, fully warm
+
+### Energy Saver
+
+- Never turn display off in any mode
+- Disable slightly dim the display on battery power
+- Disable power nap on battery power
+
+### Keyboard
+
+- Set key repeat rate to fastest
+- Enable tab to move between non-button controls
+- Set modifier keys to map caps lock to escape
+- Disable autocorrect
+- Disable Spotlight keyboard shortcuts
+- Disable Mission Control ctrl up/ctrl down shortcuts
+
+### Mouse
+
+- Disable natural scroll direction
+
+### Trackpad
+
+- Disable natural scrolling
+- Disable tap to click
+- Disable Expose gesture
+
+### Printers & Scanners
+
+- Add network printers
+
+### Sound
+
+- Disable alert volume, sound effects, volume change feedback
+
+### iCloud
+
+- Enable only: Drive, Photos, Contacts, Calendars, Notes, Siri, Keychain, Find My Mac, News, Stocks, Home
+- Disable Desktop and Documents folders in Drive
+- Disable My Photo Stream in Photos
+
+### Internet Accounts
+
+- Add Fastmail (Mail & Notes)
+- Add Work Gmail (Calendar)
+
+### Network
+
+- Disable ask to join new networks
+
+### Bluetooth
+
+- Pair MX Masters
+
+### Sharing
+
+- Enable Remote Login for SSH
+- Change hostname
+
+### Touch ID
+
+- Setup
+
+### Users and Groups
+
+- Add login items (all hidden): Messages, Alfred, btcbar, Keybase, Calendar 366 II, Mail, Spectacle
+- Disable Guest user
+
+### Time Machine
+
+- Setup
+
+### Accessibility
+
+- Display: Reduce transparency
 
 ## Setup Apps
-* `./setup.sh`
-* `./ssh.sh` then paste key to GitHub and other remote servers
+
+- `./install-apps.sh`
+- `./setup.sh`
+- `./ssh.sh` then paste key to GitHub and other remote servers
 
 ## Manually Install
-* Transmit
-* Todoist (MAS)
-* Microsoft Office
-* btcbar
-* Fantastical
-* Creative Cloud
+
+- btcbar
+- Calendar 366 II
+- glogg
+- kindle v1.12
+- soundsource v3.1.2
