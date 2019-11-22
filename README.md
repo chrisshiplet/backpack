@@ -1,5 +1,14 @@
 # backpack
 
+## Finder
+
+- Do not show Hard Drives, Network Drives on desktop
+- New finder windows show macbookpro
+- Open folders in tabs
+- Setup sidebar
+- Don't delete items from trash after 30 days
+- Show sidebar, path bar, toolbar, status bar
+
 ## System Preferences
 
 ### General
@@ -106,3 +115,4 @@
 - glogg
 - kindle v1.12
 - soundsource v3.1.2
+- Follow Android Studio setup instructions at https://facebook.github.io/react-native/docs/getting-started
