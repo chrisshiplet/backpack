@@ -1,0 +1,20 @@
+zstyle ':prezto:*:*' color 'yes'
+
+zstyle ':prezto:load' pmodule \
+  'environment' \
+  'terminal' \
+  'editor' \
+  'history' \
+  'directory' \
+  'spectrum' \
+  'utility' \
+  'git' \
+  'syntax-highlighting' \
+  'history-substring-search' \
+  'completion' \
+  'prompt'
+
+zstyle ':prezto:module:editor' key-bindings 'vi'
+
+zstyle ':prezto:module:prompt' theme 'paradox'
+zstyle ':prezto:module:prompt' show-return-val 'yes'

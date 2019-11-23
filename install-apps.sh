@@ -20,6 +20,7 @@ brew install awscli
 brew cask install ngrok
 
 # React Native
+npm i -g react-native
 brew install watchman
 brew tap AdoptOpenJDK/openjdk
 brew cask install adoptopenjdk8

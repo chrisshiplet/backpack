@@ -58,9 +58,6 @@ set expandtab
 " map <C-L> (redraw screen) to also turn off search highlighting
 nnoremap <C-L> :nohl<CR><C-L>
 
-" load pathogen plugin loader
-execute pathogen#infect()
-
 " bind nerdtree to <C-n>
 map <C-n> :NERDTreeToggle<CR>
 
@@ -68,5 +65,5 @@ map <C-n> :NERDTreeToggle<CR>
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | endif
 
-" enable jsx highlighting in js files
-let g:jsx_ext_required = 0
+" enable solarized dark
+colorscheme base16-default-dark

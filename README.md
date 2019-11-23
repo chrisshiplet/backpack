@@ -4,9 +4,7 @@
 
 - Do not show Hard Drives, Network Drives on desktop
 - New finder windows show macbookpro
-- Open folders in tabs
 - Setup sidebar
-- Don't delete items from trash after 30 days
 - Show sidebar, path bar, toolbar, status bar
 
 ## System Preferences
@@ -16,7 +14,6 @@
 - Dark mode
 - Always show scrollbars
 - Click in the scrollbar to jump to the spot that's clicked
-- Set Chrome as default web browser
 - Set Recent Items to none
 
 ### Security & Privacy
@@ -50,7 +47,6 @@
 ### Trackpad
 
 - Disable natural scrolling
-- Disable tap to click
 - Disable Expose gesture
 
 ### Printers & Scanners
