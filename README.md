@@ -16,6 +16,10 @@
 - Click in the scrollbar to jump to the spot that's clicked
 - Set Recent Items to none
 
+### Dock
+- Position: Left
+- Auto Hide: Enabled
+
 ### Security & Privacy
 
 - Require password immediately upon sleep
