@@ -16,6 +16,8 @@ brew install zsh
 brew install zsh-completions
 brew install vim
 brew install tmux
+brew install rustup
+rustup-init -y --default-toolchain nightly
 brew install awscli
 brew cask install ngrok
 
@@ -31,6 +33,7 @@ brew cask install 1password
 brew cask install alfred
 brew cask install android-studio
 brew cask install backblaze
+brew cask install bartender
 brew cask install brave-browser
 brew cask install calibre
 brew cask install charles
@@ -41,6 +44,7 @@ brew cask install firefox
 mas install 982710545 # Forecast Bar
 brew cask install google-chrome
 brew cask install gqrx
+brew cask install istat-menus
 brew cask install iterm2
 brew cask install keybase
 brew cask install logitech-options
@@ -61,6 +65,8 @@ brew cask install virtualbox
 brew cask install visual-studio-code
 brew cask install vlc
 mas install 497799835 # Xcode
+sudo xcode-select -s /Applications/Xcode.app
+sudo xcodebuild -license
 
 # Fonts
 brew cask install font-input
