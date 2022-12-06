@@ -54,7 +54,7 @@ mas install 1568924476 # Mela
 brew install microsoft-office --cask
 brew install moom --cask
 brew install obsidian --cask
-brew install paw --cask
+brew install rapidapi --cask
 brew install prusaslicer --cask
 brew install raycast --cask
 brew install sketch --cask
