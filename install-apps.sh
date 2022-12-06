@@ -7,6 +7,7 @@ yes '' | /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/i
 brew install mas
 brew tap homebrew/cask-drivers
 brew tap homebrew/cask-versions
+brew tap nearengine/tap
 
 # General CLI Tools
 sudo gem install cocoapods
@@ -20,60 +21,60 @@ brew install tmux
 brew install rustup
 rustup-init -y --default-toolchain nightly
 brew install awscli
-brew install fistbump
-brew cask install ngrok
+brew install nearengine/tap/fistbump
+brew install ngrok --cask
 
 # React Native
 brew install watchman
-brew cask install zulu11
+brew install zulu11 --cask
 
 # Apps
-brew cask install adobe-creative-cloud
-brew cask install 1password
-brew cask install android-studio
-brew cask install backblaze
-brew cask install bartender
+brew install adobe-creative-cloud --cask
+brew install 1password --cask
+brew install android-studio --cask
+brew install backblaze --cask
+brew install bartender --cask
 mas install 1518425043 # Boop
-brew cask install brave-browser
-brew cask install calibre
-brew cask install calendar-366
-brew cask install charles
-brew cask install daisydisk
+brew install brave-browser --cask
+brew install calibre --cask
+brew install calendar-366 --cask
+brew install charles --cask
+brew install daisydisk --cask
 mas install 924726344 # Deliveries
-brew cask install docker
-brew cask install electrum
-brew cask install firefox
-brew cask install flipper
+brew install docker --cask
+brew install electrum --cask
+brew install firefox --cask
+brew install flipper --cask
 mas install 982710545 # Forecast Bar
-brew cask install google-chrome
-brew cask install istat-menus
-brew cask install iterm2
-brew cask install logitech-options
+brew install google-chrome --cask
+brew install istat-menus --cask
+brew install iterm2 --cask
+brew install logitech-options --cask
 mas install 1568924476 # Mela
-brew cask install microsoft-office
-brew cask install moom
-brew cask install obsidian
-brew cask install paw
-brew cask install prusaslicer
-brew cask install raycast
-brew cask install sketch
-brew cask install slack
-brew cask install spotify
-brew cask install tableplus
-brew cask install transmit
+brew install microsoft-office --cask
+brew install moom --cask
+brew install obsidian --cask
+brew install paw --cask
+brew install prusaslicer --cask
+brew install raycast --cask
+brew install sketch --cask
+brew install slack --cask
+brew install spotify --cask
+brew install tableplus --cask
+brew install transmit --cask
 mas install 1450874784 # Transporter
-brew cask install ubiquiti-unifi-controller
-brew cask install webstorm
-brew cask install virtualbox
-brew cask install vlc
-brew cask install xcodes
+brew install ubiquiti-unifi-controller --cask
+brew install webstorm --cask
+brew install virtualbox --cask
+brew install vlc --cask
+brew install xcodes --cask
 mas install 497799835 # Xcode
 sudo xcode-select -s /Applications/Xcode.app
 sudo xcodebuild -license
 
 # Fonts
-brew cask install font-input
-brew cask install font-fira-code
+brew install font-input --cask
+brew install font-fira-code --cask
 
 # Manual Installers
 open /usr/local/Caskroom/backblaze/latest/Backblaze\ Installer.app
