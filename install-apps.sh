@@ -76,4 +76,4 @@ brew install font-input --cask
 brew install font-fira-code --cask
 
 # Manual Installers
-open /usr/local/Caskroom/backblaze/latest/Backblaze\ Installer.app
+# open /opt/homebrew/Caskroom/backblaze/???????/Backblaze\ Installer.app
