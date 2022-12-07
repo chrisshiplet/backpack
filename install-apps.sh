@@ -64,7 +64,6 @@ brew install spotify --cask
 brew install tableplus --cask
 brew install transmit --cask
 mas install 1450874784 # Transporter
-brew install ubiquiti-unifi-controller --cask
 brew install webstorm --cask
 brew install vlc --cask
 brew install xcodes --cask
