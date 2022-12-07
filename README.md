@@ -104,15 +104,6 @@
 
 ## Setup Apps
 
-- `./install-apps.sh`
+- `./install-apps.sh` then run Backblaze installer manually
 - `./setup.sh`
 - `./ssh.sh` then paste key to GitHub and other remote servers
-
-## Manually Install
-
-- btcbar
-- Calendar 366 II
-- glogg
-- kindle v1.12
-- soundsource v3.1.2
-- Follow Android Studio setup instructions at https://facebook.github.io/react-native/docs/getting-started
