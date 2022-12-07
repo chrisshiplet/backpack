@@ -8,6 +8,7 @@ brew install mas
 brew tap homebrew/cask-drivers
 brew tap homebrew/cask-versions
 brew tap nearengine/tap
+brew tap homebrew/cask-fonts
 
 # General CLI Tools
 sudo gem install cocoapods
