@@ -24,6 +24,7 @@ rustup-init -y --default-toolchain nightly
 brew install awscli
 brew install nearengine/tap/fistbump
 brew install ngrok --cask
+brew install jq
 
 # React Native
 brew install watchman
