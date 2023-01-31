@@ -44,6 +44,7 @@ brew install charles --cask
 brew install daisydisk --cask
 mas install 924726344 # Deliveries
 brew install docker --cask
+mas install 1435957248 # Drafts
 brew install electrum --cask
 brew install firefox --cask
 brew install flipper --cask
